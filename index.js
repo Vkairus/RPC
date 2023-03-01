@@ -15,7 +15,7 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} - rich presence started!`
                )
 const r = new Discord.RichPresence()
-    .setApplicationId('1076376186491510815')
+    .setApplicationId('1076376186491510815') //your application id you can find how to create an application on yt
     .setType('PLAYING')
     .setURL('https://youtu.be/YQ-qToZUybM') //you can change url here
     .setState('Games')   // change states to watever you want
